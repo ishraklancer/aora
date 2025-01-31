@@ -6,7 +6,7 @@ import { Link } from "expo-router"; // Import the global.css file in the index.j
 const index = () => {
   return (
     <View className="flex-1 justify-center items-center">
-      <Text className="text-4xl font-pblack">Hello Freli!</Text>
+      <Text className="text-4xl font-pblack">Hello World!</Text>
       <Link href="/home" className="text-blue-500">
         Go to Home
       </Link>
